@@ -7,6 +7,7 @@ var theCanvas=document.getElementById("GameCanvas");
 var Context=theCanvas.getContext("2d");
 Context.fillStyle="#000";
 Context.fillRect(0,0,1000,700);
+<<<<<<< HEAD
 
 
 Context.beginPath();
@@ -989,4 +990,6 @@ gradient.addColorStop("1","red");
 Context.strokeStyle=gradient;
 Context.lineWidth=5;
 Context.strokeRect(5,5,350,290);
+=======
+>>>>>>> 1c7386106e7f92de62054f10936f0885ff4a639e
 }
